@@ -6,6 +6,14 @@ public class CarModel {
     private String model;
     private String mark;
 
+    public CarModel() {
+    }
+
+    public CarModel(String model, String mark) {
+        this.model = model;
+        this.mark = mark;
+    }
+
     public String getModel() {
         return model;
     }
